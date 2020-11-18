@@ -5,7 +5,118 @@ img {
 
 .banner {
     width: 100%;
-    background-size: cover;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item {
+    width: 100%;
+    height: 670px;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.banner-content {
+    width: 640px;
+    padding-top: 330px;
+}
+
+.primary-heading {
+    font-size: 63px;
+    font-weight: bold;
+    line-height: 57px;
+}
+
+.afyun-about {
+    width: 100%;
+}
+
+.about-content {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    width: 426px;
+}
+
+.small-title {
+    font-size: 15px;
+}
+
+.sub-text {
+    position: absolute;
+    margin-top: 499px;
+    z-index: 2;
+    border-left: 5px solid red;
+}
+
+.text-space {
+    padding-left: 25px;
+}
+
+.small-text {
+    border-left: 5px solid red;
+    height: 20px;
+}
+
+.icon-pink-arrow:before {
+    content: "\e900";
+    color: #ed5368;
+}
+
+.why-us {
+    width: 100%;
+}
+
+.left {
+    position: relative;
+    height: 469px;
+}
+
+.right {
+    position: relative;
+    height: 469px;
+    z-index: -1;
+}
+
+.fg {
+    width: 100%;
+    background-color: black;
+    height: 469px;
+    opacity: 80%;
+}
+
+.red-box {
+    width: 530px;
+    height: 460px;
+    position: absolute;
+    margin-top: -147px;
+}
+
+.red-box-content-align {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.red-box-head {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.blog {
+    width: 100%;
+    float: left;
+}
+
+.blog-head {
+    width: 300px;
+}
+
+.global-para {
+    width: 325px;
 }

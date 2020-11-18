@@ -1,44 +1,70 @@
 @import './variables.scss';
 @font-face {
-    font-family: "arsmpro-regular";
+    font-family: "arsmpro";
     src: url(../fonts/arsmproregular.TTF);
+    font-weight: normal;
 }
 
-.regular {
-    font-family: "arsmpro-regular";
+@font-face {
+    font-family: "arsmpro";
+    src: url(../fonts/ARSMAQUETTEPRO-BOLD-WEBFONT.TTF);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "arsmpro";
+    src: url(../fonts/arsmpro-Medium.ttf);
+    font-weight: medium;
 }
 
 body {
     color: $primary-color;
     font-size: 16px;
+    font-family: "arsmpro";
+    font-weight: normal;
+    line-height: 24px;
 }
 
-.white-text {
+.tt {
+    text-transform: uppercase;
+}
+
+.tac {
+    text-align: center;
+}
+
+.text-white {
     color: white;
+}
+
+.text-gray {
+    color: #737373;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1157px;
-    background-color: $secondary-color;
 }
 
 .header {
     width: 100%;
-    background-color: $primary-color;
     position: fixed;
     height: 80px;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .logo {
-    width: 120px;
-    margin-top: 16px;
-    position: fixed;
+    width: 130px;
+    position: absolute;
 }
 
 nav {
     margin: 20px 0px 0px 150px;
-    position: fixed;
 }
 
 .navbar {
@@ -48,33 +74,27 @@ nav {
         padding-left: 35px;
         text-transform: uppercase;
         font-weight: bold;
-        line-height: 36.2px;
+        line-height: 36px;
         a:hover {
             color: $secondary-color;
         }
     }
 }
 
-.header-hl {
-    border-left: 1px solid #fff;
-    height: 40px;
-    float: right;
-    width: 17px;
-    margin: 20px 20px 0px -10px;
-}
-
 .header-contact {
-    width: 178px;
+    width: 207px;
     float: right;
-    margin-top: 20px;
     font-size: 11px;
     text-transform: uppercase;
+    position: relative;
+    border-left: 1px solid white;
 }
 
 .phone {
     width: 32px;
     margin-right: 19px;
     float: left;
+    margin-left: 19px;
 }
 
 .phone-number {
