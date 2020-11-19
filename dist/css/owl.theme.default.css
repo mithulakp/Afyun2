@@ -53,10 +53,10 @@
         }
         
         .owl-theme .owl-dots .owl-dot span {
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             margin: 5px 7px;
-            background: #D6D6D6;
+            background: #fff;
             display: inline-block;
             -webkit-backface-visibility: visible;
             transition: opacity 200ms ease;
@@ -71,6 +71,22 @@
         .owl-carousel .owl-nav button.owl-prev {
             margin-right: 250px;
             margin-top: 70px;
+        }
+        
+        .banner-slide .owl-nav {
+            position: absolute;
+            margin-top: -173px;
+            right: 190px;
+        }
+        
+        .banner-slide .owl-nav button.owl-prev {
+            margin-right: 14px !important
+        }
+        
+        .banner-slide .owl-dots {
+            position: absolute;
+            margin-top: -89px;
+            right: 356px;
         }
         /* 
         .slide.owl-theme .owl-nav {

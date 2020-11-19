@@ -1,11 +1,14 @@
-const prevIcon = '<img src="dist/images/slide-arrow-left.svg"class="prev-btn">Prev';
-const nextIcon = 'Next<img src="dist/images/slide-arrow.svg"class="next-btn">';
+const prevIcon = '<img src="dist/images/slide-arrow-left.svg"class="prev-btn">';
+const nextIcon = '<img src="dist/images/slide-arrow.svg"class="next-btn">';
 
 
 $('.banner-slide').owlCarousel({
     loop: true,
     margin: 10,
-    nav: false,
+    nav: true,
+    navText: [
+        prevIcon, nextIcon
+    ],
     pagination: false,
     autoplay: 1000,
     autoplaySpeed: 1000,
