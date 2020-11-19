@@ -26,17 +26,11 @@ img {
     padding-top: 330px;
 }
 
-.primary-heading {
-    font-size: 63px;
-    font-weight: bold;
-    line-height: 57px;
-}
-
 .afyun-about {
     width: 100%;
 }
 
-.about-content {
+.text-intro {
     font-weight: bold;
     font-size: 21px;
     line-height: 25px;
@@ -68,16 +62,26 @@ img {
     color: #ed5368;
 }
 
-.why-us {
+.inner-banner {
     width: 100%;
+    float: left;
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: cover !important;
+}
+
+.inner-banner-bg {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .left {
-    position: relative;
-    height: 469px;
+    height: 466px;
+    background-repeat: no-repeat !important;
 }
 
-.right {
+
+/*.right {
     position: relative;
     height: 469px;
     z-index: -1;
@@ -88,10 +92,10 @@ img {
     background-color: black;
     height: 469px;
     opacity: 80%;
-}
+}*/
 
 .red-box {
-    width: 530px;
+    width: 562px;
     height: 460px;
     position: absolute;
     margin-top: -147px;
@@ -108,7 +112,7 @@ img {
     line-height: 40px;
 }
 
-.blog {
+.category-box {
     width: 100%;
     float: left;
 }
@@ -119,4 +123,57 @@ img {
 
 .global-para {
     width: 325px;
+}
+
+.blog-box {
+    width: 275px;
+    height: 372px;
+    position: relative;
+    background-color: #edb13e;
+}
+
+.blog-box2 {
+    margin-top: 50px;
+    background-color: black;
+}
+
+.category {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.category-head {
+    font-weight: normal;
+}
+
+.box-content-align-sm {
+    padding-left: 40px;
+    padding-right: 44px;
+}
+
+.red-bg {
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url(../images/red-bg.png);
+}
+
+.nature-img {
+    margin-left: -53px;
+    margin-top: 110px;
+}
+
+.red-bg-text {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.red-bg-spacing {
+    padding-top: 250px;
+}
+
+.red-bg-heading {
+    font-size: 59px;
+    line-height: 52px;
 }

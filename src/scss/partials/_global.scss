@@ -21,8 +21,8 @@ body {
     color: $primary-color;
     font-size: 16px;
     font-family: "arsmpro";
-    font-weight: normal;
     line-height: 24px;
+    font-weight: normal;
 }
 
 .tt {
@@ -99,4 +99,34 @@ nav {
 
 .phone-number {
     font-size: 18px;
+}
+
+.primary-heading {
+    font-size: 63px;
+    font-weight: bold;
+    line-height: 57px;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+
+.ft-cntct {
+    font-weight: normal;
+}
+
+.ft-icon {
+    float: right;
+}
+
+.ft-bottom {
+    border-top: 1px solid #737373;
+}
+
+.copy {
+    font-size: 12px;
+    font-weight: normal;
+    padding-top: 15px;
 }
