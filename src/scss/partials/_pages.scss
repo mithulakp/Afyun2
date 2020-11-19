@@ -77,7 +77,9 @@ img {
 
 .left {
     height: 466px;
+    width: 50%;
     background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 
@@ -94,19 +96,21 @@ img {
     opacity: 80%;
 }*/
 
-.red-box {
+.afyun-feature-box {
     width: 562px;
     height: 460px;
     position: absolute;
     margin-top: -147px;
+    right: -477px;
+    /*margin-left: 550px;*/
 }
 
-.red-box-content-align {
+.afyun-feature-box-content-align {
     padding-left: 80px;
     padding-right: 80px;
 }
 
-.red-box-head {
+.secondary-heading {
     font-size: 45px;
     font-weight: bold;
     line-height: 40px;
@@ -154,9 +158,9 @@ img {
 .red-bg {
     width: 100%;
     float: left;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background: url(../images/red-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url(../images/red-bg1.png);
 }
 
 .nature-img {
@@ -173,7 +177,7 @@ img {
     padding-top: 250px;
 }
 
-.red-bg-heading {
-    font-size: 59px;
-    line-height: 52px;
+.arrow {
+    position: absolute;
+    margin: -10px 0px 0px 25px;
 }

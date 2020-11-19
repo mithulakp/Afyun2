@@ -1,5 +1,5 @@
-const prevIcon = '<img src="dist/images/left.svg"class="prev-btn">Prev';
-const nextIcon = 'Next<img src="dist/images/right.svg"class="next-btn">';
+const prevIcon = '<img src="dist/images/slide-arrow-left.svg"class="prev-btn">Prev';
+const nextIcon = 'Next<img src="dist/images/slide-arrow.svg"class="next-btn">';
 
 
 $('.banner-slide').owlCarousel({
@@ -21,3 +21,7 @@ $('.banner-slide').owlCarousel({
         }
     }
 })
+
+$(function() {
+    AOS.init();
+});
