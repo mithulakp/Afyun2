@@ -26,5 +26,7 @@ $('.banner-slide').owlCarousel({
 })
 
 $(function() {
-    AOS.init();
+    AOS.init({
+        duration: 800,
+    });
 });

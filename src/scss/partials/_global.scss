@@ -61,6 +61,7 @@ body {
 .logo {
     width: 130px;
     position: absolute;
+    margin-top: -7px;
 }
 
 nav {
@@ -77,6 +78,7 @@ nav {
         line-height: 36px;
         a:hover {
             color: $secondary-color;
+            @extend .smooth;
         }
     }
 }
@@ -87,13 +89,13 @@ nav {
     font-size: 11px;
     text-transform: uppercase;
     position: relative;
-    border-left: 1px solid #908a7d;
-    height: 50px;
+    border-left: 1px solid #999181;
+    height: 45px;
 }
 
 .phone {
     width: 32px;
-    margin: 12px;
+    margin: 8px 10px 0px 32px;
     float: left;
 }
 
@@ -124,11 +126,15 @@ nav {
 }
 
 .ft-bottom {
-    border-top: 1px solid #737373;
+    border-top: 1px solid #3b3b3b;
 }
 
 .copy {
     font-size: 12px;
     font-weight: normal;
     padding-top: 15px;
+}
+
+.smooth {
+    transition: all .4s ease-in;
 }

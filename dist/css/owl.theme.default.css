@@ -122,3 +122,12 @@
         .owl-carousel .company-slider {
             margin-left: -50px !important;
         }
+        
+        .owl-next:focus,
+        .owl-prev:focus {
+            outline: none;
+        }
+        
+        .owl-theme .owl-dots .owl-dot {
+            outline: none;
+        }
