@@ -64,6 +64,18 @@ body {
     margin-top: -7px;
 }
 
+#toggle {
+    display: none;
+}
+
+label {
+    margin: -14px 0px 0 239px;
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    display: none;
+}
+
 nav {
     margin: 20px 0px 0px 150px;
 }
@@ -136,5 +148,5 @@ nav {
 }
 
 .smooth {
-    transition: all .4s ease-in;
+    transition: all .4s ease;
 }

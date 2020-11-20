@@ -1,184 +1,206 @@
-    @import './variables.scss';
-    img {
-        max-width: 100%;
-    }
-    
-    .banner {
-        width: 100%;
-    }
-    
-    .slider {
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-    }
-    
-    .item {
-        width: 100%;
-        height: 670px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    .banner-content {
-        width: 640px;
-        padding-top: 380px;
-    }
-    
-    .afyun-about {
-        width: 100%;
-    }
-    
-    .text-intro {
-        font-weight: bold;
-        font-size: 21px;
-        line-height: 25px;
-        width: 426px;
-    }
-    
-    .small-title {
-        font-size: 15px;
-    }
-    
-    .sub-text {
-        position: absolute;
-        margin-top: 565px;
-        z-index: 2;
-        border-left: 5px solid red;
-    }
-    
-    .text-space {
-        padding-left: 25px;
-    }
-    
-    .small-text {
-        border-left: 5px solid red;
-        height: 20px;
-    }
-    
-    .inner-banner {
-        width: 100%;
-        float: left;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .inner-banner-bg {
-        width: 100%;
-        float: left;
-        background-color: rgba(0, 0, 0, .8);
-    }
-    
-    .left {
-        height: 466px;
-        width: 100%;
-        margin-left: -15px;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .feature-box-container {
-        width: 160px;
-        margin: 0px auto;
-    }
-    
-    .afyun-feature-box {
-        width: 562px;
-        height: 460px;
-        position: absolute;
-        margin-top: -125px;
-        /* margin-left: -78px; */
-    }
-    
-    .afyun-feature-box-content-align {
-        padding-left: 80px;
-        padding-right: 80px;
-    }
-    
-    .secondary-heading {
-        font-size: 45px;
-        font-weight: bold;
-        line-height: 40px;
-    }
-    
-    .category-box {
-        width: 100%;
-        float: left;
-    }
-    
-    .blog-head {
-        width: 300px;
-    }
-    
-    .global-para {
-        width: 325px;
-    }
-    
-    .blog-box {
-        width: 285px;
-        height: 365px;
-        position: relative;
-        background-color: #edb13e;
-    }
-    
-    .blog-box2 {
-        margin-top: 50px;
-        background-color: black;
-    }
-    
-    .category {
-        font-size: 10px;
-        font-weight: normal;
-    }
-    
-    .category-head {
-        font-weight: normal;
-    }
-    
-    .box-content-align-sm {
-        padding-left: 40px;
-        padding-right: 44px;
-    }
-    
-    .red-bg {
-        width: 100%;
-        float: left;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(../images/red-bg1.png);
-    }
-    
-    .nature-img {
-        margin-top: -10px;
-    }
-    
-    .red-bg-text {
-        font-size: 13px;
-        font-weight: 100;
-    }
-    
-    .red-bg-spacing {
-        padding-top: 250px;
-    }
-    
-    .arrow {
-        position: absolute;
-        margin: -5px 0px 0px 25px;
+@import './variables.scss';
+img {
+    max-width: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item {
+    width: 100%;
+    height: 670px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-content {
+    width: 640px;
+    padding-top: 380px;
+}
+
+.afyun-about {
+    width: 100%;
+}
+
+.text-intro {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    width: 426px;
+}
+
+.small-title {
+    font-size: 15px;
+}
+
+.sub-text {
+    position: absolute;
+    margin-top: 565px;
+    z-index: 2;
+    border-left: 5px solid red;
+}
+
+.text-space {
+    padding-left: 25px;
+}
+
+.small-text {
+    border-left: 5px solid red;
+    height: 20px;
+}
+
+.inner-banner {
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner-banner-bg {
+    width: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.left {
+    height: 466px;
+    width: 100%;
+    margin-left: -15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-box-container {
+    width: 160px;
+    margin: 0px auto;
+}
+
+.afyun-feature-box {
+    width: 562px;
+    height: 460px;
+    position: absolute;
+    margin-top: -125px;
+    /* margin-left: -78px; */
+}
+
+.afyun-feature-box-content-align {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.secondary-heading {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.category-box {
+    width: 100%;
+    float: left;
+}
+
+.blog-head {
+    width: 300px;
+}
+
+.global-para {
+    width: 325px;
+}
+
+.blog-box {
+    width: 285px;
+    height: 365px;
+    position: relative;
+    background-color: #edb13e;
+}
+
+.blog-box2 {
+    margin-top: 50px;
+    background-color: black;
+}
+
+.category {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.category-head {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.box-content-align-sm {
+    padding-left: 40px;
+    padding-right: 44px;
+}
+
+.red-bg {
+    width: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/red-bg1.png);
+}
+
+.nature-img {
+    margin-top: -20px;
+}
+
+.red-bg-text {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.red-bg-spacing {
+    padding-top: 250px;
+}
+
+.arrow {
+    position: absolute;
+    margin: -5px 0px 0px 25px;
+    border: 1px solid white;
+    padding: 6px 4px 7px 3px;
+    border-radius: 21px;
+    &:hover {
         transition: top ease 0.5s;
-        &:hover {
-            transition: top ease 0.5s;
-            top: -10px;
-        }
+        top: -7px;
     }
-    
-    .dots-container {
-        width: 1127px;
-        position: absolute;
-        margin: 44px auto;
-        right: 0;
-        background-image: url(../images/dots.png);
-        height: 673px;
-        z-index: -1;
-    }
+}
+
+.arrow-pink {
+    border: 1px solid #fb6060;
+}
+
+.arrow-black {
+    border: 1px solid #000;
+}
+
+.dots-container {
+    width: 45%;
+    position: absolute;
+    margin: 284px auto;
+    right: 0;
+    background-image: url(../images/dots.png);
+    height: 369px;
+    z-index: -1;
+}
+
+.slider-arrow {
+    border: 2px solid white;
+    padding: 5px 9px 5px 6px;
+    border-radius: 20px;
+}
+
+.category-arrow:hover {
+    border: 1px solid transparent;
+    border-radius: 21px;
+}
