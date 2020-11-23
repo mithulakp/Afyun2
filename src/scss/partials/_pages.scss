@@ -39,22 +39,28 @@ img {
 
 .small-title {
     font-size: 15px;
+    position: absolute;
 }
 
 .sub-text {
     position: absolute;
-    margin-top: 565px;
     z-index: 2;
     border-left: 5px solid red;
+    margin-top: 48px;
+}
+
+.text-link {
+    margin-top: -30px;
+    width: 100px;
 }
 
 .text-space {
-    padding-left: 25px;
+    padding-left: 20px;
 }
 
 .small-text {
     border-left: 5px solid red;
-    height: 20px;
+    height: 26px;
 }
 
 .inner-banner {
@@ -166,7 +172,7 @@ img {
 
 .arrow {
     position: absolute;
-    margin: -5px 0px 0px 25px;
+    margin: -5px 0px 0px 15px;
     border: 1px solid white;
     padding: 6px 4px 7px 3px;
     border-radius: 21px;
@@ -174,6 +180,12 @@ img {
         transition: top ease 0.5s;
         top: -7px;
     }
+}
+
+.arw-bnr {
+    width: 33px !important;
+    margin-top: -26px;
+    margin-left: 115px;
 }
 
 .arrow-pink {
@@ -195,12 +207,20 @@ img {
 }
 
 .slider-arrow {
-    border: 2px solid white;
-    padding: 5px 9px 5px 6px;
+    border: 2px solid #fff;
+    padding: 9px 11px 7px 10px;
     border-radius: 20px;
+}
+
+.text-padding {
+    margin-right: 50px;
 }
 
 .category-arrow:hover {
     border: 1px solid transparent;
     border-radius: 21px;
+}
+
+.link-text {
+    font-size: 15px;
 }

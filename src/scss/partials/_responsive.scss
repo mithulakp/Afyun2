@@ -26,13 +26,11 @@
         display: none;
     }
     .navbar {
-        text-align: center;
         width: 100%;
         display: none;
     }
     .navbar li {
         display: block;
-        width: 100%;
     }
     label {
         display: block;
@@ -40,10 +38,9 @@
     }
     #toggle:checked+.navbar {
         display: block;
-        width: 375px;
-        margin: 3px 55px 10px -215px;
-        padding: 74px 0px 55px 0px;
-        color: white;
+        /* margin: 30px 0px 0px 0px; */
+        padding: 62px 0px 55px 0px;
+        background-color: #000;
     }
     .banner-content {
         width: 440px;

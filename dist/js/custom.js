@@ -1,5 +1,5 @@
-const prevIcon = '<img src="dist/images/slider-arrow-left.svg"class="prev-btn slider-arrow">';
-const nextIcon = '<img src="dist/images/slider-arrow-right.svg"class="next-btn slider-arrow">';
+const prevIcon = '<img src="dist/images/slider-left-arw.svg"class="prev-btn slider-arrow">';
+const nextIcon = '<img src="dist/images/slider-right-arw.svg"class="next-btn slider-arrow">';
 
 
 $('.banner-slide').owlCarousel({

@@ -64,18 +64,6 @@ body {
     margin-top: -7px;
 }
 
-#toggle {
-    display: none;
-}
-
-label {
-    margin: -14px 0px 0 239px;
-    font-size: 30px;
-    line-height: 60px;
-    position: absolute;
-    display: none;
-}
-
 nav {
     margin: 20px 0px 0px 150px;
 }
@@ -95,6 +83,23 @@ nav {
     }
 }
 
+label {
+    display: none;
+    float: right;
+}
+
+label div {
+    width: 33px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+}
+
+#toggle {
+    display: none;
+    float: right;
+}
+
 .header-contact {
     width: 207px;
     float: right;
@@ -107,7 +112,7 @@ nav {
 
 .phone {
     width: 32px;
-    margin: 8px 10px 0px 32px;
+    margin: 6px 10px 0px 10px;
     float: left;
 }
 
