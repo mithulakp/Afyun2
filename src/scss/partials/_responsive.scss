@@ -25,6 +25,12 @@
     .header-contact {
         display: none;
     }
+    .header {
+        height: 74px;
+    }
+    .logo {
+        margin-left: 10px;
+    }
     .navbar {
         width: 100%;
         display: none;
@@ -36,11 +42,22 @@
         display: block;
         cursor: pointer;
     }
+    #toggle:checked+label::before {
+        transform: rotateZ(50deg);
+    }
+    #toggle:checked+label::after {
+        transform: rotateZ(-50deg);
+    }
+    #toggle:checked~label {
+        display: none;
+    }
     #toggle:checked+.navbar {
+        width: 90%;
         display: block;
-        /* margin: 30px 0px 0px 0px; */
-        padding: 62px 0px 55px 0px;
+        padding-top: 62px;
         background-color: #000;
+        height: 100vh;
+        margin-left: 30px;
     }
     .banner-content {
         width: 440px;
@@ -52,6 +69,7 @@
     }
     .item {
         height: 550px;
+        background-size: cover;
     }
     .banner-slide .owl-dots {
         display: none;
@@ -71,8 +89,11 @@
         margin-top: -16px;
     }
     .text-intro {
-        width: 380px;
+        padding: 0px 50px 0px 50px;
         margin: 0 auto;
+    }
+    .intro {
+        text-align: center;
     }
     .inner-banner-bg {
         background-color: #fff;
@@ -91,6 +112,7 @@
     .afyun-feature-box-content-align {
         padding-left: 33px;
         padding-right: 23px;
+        padding-top: 58px !important;
     }
     .blog-head {
         margin: 0 auto;
@@ -115,22 +137,18 @@
         margin-left: 0px;
         margin-right: 0px;
     }
-    .ft-cntct {
-        /* margin-top: 15px; */
-        margin: 20px 0px 0px 30px;
+    .ft {
+        margin-left: 20px;
     }
-    .phone-number {
-        margin-left: 30px;
-    }
-    .social {
-        margin-left: 26px;
+    .ft-spacing {
+        margin-top: 25px;
     }
     .ft-icon {
         float: left;
-        margin: 15px;
+        margin-left: -5px;
     }
     .ft-bottom {
-        margin-top: 60px;
+        margin-top: 80px;
     }
     .copy {
         padding-top: 0px;

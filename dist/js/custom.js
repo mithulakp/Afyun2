@@ -30,3 +30,31 @@ $(function() {
         duration: 800,
     });
 });
+
+jQuery(document).ready(function() {
+    jQuery(window).scroll(function() {
+        var scroll = jQuery(window).scrollTop();
+
+        if (scroll >= 100) {
+            jQuery("header").addClass("actve");
+        } else {
+            jQuery("header").removeClass("actve");
+        }
+    });
+});
+
+
+// Navigation
+var menu_nav = document.querySelector("#burger");
+var global_menu = document.querySelector('#global_menu');
+var close_btn = document.querySelector('#close-btn');
+var mybody = document.querySelector('body');
+menu_nav.addEventListener('click', function() {
+    global_menu.classList.toggle('active');
+    mybody.classList.toggle('menu_active');
+});
+
+close_btn.addEventListener('click', function() {
+    global_menu.classList.remove('active');
+    mybody.classList.remove('menu_active');
+});

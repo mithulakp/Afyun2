@@ -76,7 +76,7 @@
         .banner-slide .owl-nav {
             position: absolute;
             margin-top: -173px;
-            right: 190px;
+            right: 420px;
         }
         
         .banner-slide .owl-nav button.owl-prev {
@@ -86,28 +86,8 @@
         .banner-slide .owl-dots {
             position: absolute;
             margin-top: -89px;
-            right: 356px;
+            right: 580px;
         }
-        /* 
-        .slide.owl-theme .owl-nav {
-            color: #10233d;
-            font-size: 18px;
-        }.slide.owl-theme .owl-dot {
-            color: red;
-        }
-        
-        .slide.owl-theme .owl-dots .owl-dot {
-            width: 30px;
-            height: 30px;
-            margin: 0px 7px;
-            color: white;
-            border-radius: 0px;
-            background: linear-gradient(to bottom right, #ff6b57, #f25c5e, #f1356c, #e74c6d);
-        }
-        
-        .slide.owl-theme .owl-dots {
-            margin-top: -31px;
-        }*/
         
         .company-slide .owl-theme .owl-dots {
             margin-left: 402px;
