@@ -37,15 +37,7 @@ img {
     width: 426px;
 }
 
-.small-title {
-    font-size: 15px;
-    position: absolute;
-}
-
 .sub-text {
-    position: absolute;
-    z-index: 2;
-    border-left: 5px solid red;
     margin-top: 48px;
 }
 
@@ -60,7 +52,6 @@ img {
 
 .small-text {
     border-left: 5px solid red;
-    height: 26px;
 }
 
 .intro {
@@ -99,7 +90,6 @@ img {
     height: 460px;
     position: absolute;
     margin-top: -125px;
-    /* margin-left: -78px; */
 }
 
 .afyun-feature-box-content-align {
@@ -128,7 +118,6 @@ img {
 
 .blog-box {
     width: 285px;
-    height: 365px;
     position: relative;
     background-color: #edb13e;
 }
@@ -175,29 +164,48 @@ img {
 }
 
 .arrow {
-    position: absolute;
-    margin: -5px 0px 0px 15px;
-    border: 1px solid white;
+    margin-bottom: -11px;
     padding: 6px 4px 7px 3px;
+    border: 1px solid #fff;
     border-radius: 21px;
+    position: relative;
+    right: 0;
+    transition: right ease 0.5s;
     &:hover {
-        transition: top ease 0.5s;
-        top: -7px;
+        right: -10px;
     }
+}
+
+.arw {
+    border: 1px solid #fb6060;
+    padding: 6px 4px 1px 3px;
+    border-radius: 21px;
+    position: relative;
+    right: 0;
+    transition: right ease 0.5s;
+    &:hover {
+        right: -10px;
+    }
+}
+
+.arrow-black {
+    border: 1px solid #000;
+}
+
+.arrow-white {
+    border: 1px solid #fff;
+}
+
+.link-align {
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -7px;
 }
 
 .arw-bnr {
     width: 33px !important;
     margin-top: -26px;
     margin-left: 115px;
-}
-
-.arrow-pink {
-    border: 1px solid #fb6060;
-}
-
-.arrow-black {
-    border: 1px solid #000;
 }
 
 .dots-container {
@@ -218,11 +226,6 @@ img {
 
 .text-padding {
     margin-right: 50px;
-}
-
-.category-arrow:hover {
-    border: 1px solid transparent;
-    border-radius: 21px;
 }
 
 .link-text {

@@ -104,7 +104,6 @@ label {
     margin-top: 15px;
     position: absolute;
     background-color: white;
-    cursor: pointer;
     &::before,
     &::after {
         content: '';
@@ -115,9 +114,11 @@ label {
     }
     &::before {
         top: -300%;
+        transform-origin: left top;
     }
     &::after {
         bottom: -300%;
+        transform-origin: left bottom;
     }
 }
 
@@ -185,4 +186,5 @@ label {
 .actve {
     background-color: black;
     color: $secondary-color;
+    transition: 1s ease;
 }

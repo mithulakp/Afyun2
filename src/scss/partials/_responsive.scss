@@ -42,16 +42,19 @@
         display: block;
         cursor: pointer;
     }
-    #toggle:checked+label::before {
-        transform: rotateZ(50deg);
+    #toggle:checked~label::before {
+        transform: rotateZ(41deg);
+        margin-left: -25px;
     }
-    #toggle:checked+label::after {
-        transform: rotateZ(-50deg);
+    #toggle:checked~label::after {
+        transform: rotateZ(-41deg);
+        margin-left: -26px;
+        bottom: -726%;
     }
     #toggle:checked~label {
-        display: none;
+        width: 0%;
     }
-    #toggle:checked+.navbar {
+    #toggle:checked~.navbar {
         width: 90%;
         display: block;
         padding-top: 62px;
@@ -78,12 +81,11 @@
         display: none;
     }
     .sub-text {
-        left: 135px;
-        height: 26px;
+        left: 55px;
+        position: absolute;
     }
     .small-text {
-        margin: 0 auto;
-        width: 180px;
+        margin-left: 83px;
     }
     .text-link {
         margin-top: -16px;
@@ -138,7 +140,7 @@
         margin-right: 0px;
     }
     .ft {
-        margin-left: 20px;
+        padding-left: 20px;
     }
     .ft-spacing {
         margin-top: 25px;
