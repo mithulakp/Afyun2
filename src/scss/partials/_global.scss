@@ -83,19 +83,6 @@ nav {
     }
 }
 
-
-/*label {
-    display: none;
-    float: right;
-}
-
-label div {
-    width: 33px;
-    height: 2px;
-    background-color: white;
-    margin: 5px 16px 5px 0px;
-}*/
-
 label {
     display: none;
     width: 33px;
@@ -111,6 +98,7 @@ label {
         height: 2px;
         background-color: white;
         position: absolute;
+        transition: all 0.2s ease;
     }
     &::before {
         top: -300%;
@@ -185,6 +173,5 @@ label {
 
 .actve {
     background-color: black;
-    color: $secondary-color;
     transition: 1s ease;
 }

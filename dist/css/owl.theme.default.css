@@ -76,7 +76,7 @@
         .banner-slide .owl-nav {
             position: absolute;
             margin-top: -173px;
-            right: 420px;
+            right: 350px;
         }
         
         .banner-slide .owl-nav button.owl-prev {
@@ -86,7 +86,7 @@
         .banner-slide .owl-dots {
             position: absolute;
             margin-top: -89px;
-            right: 580px;
+            right: 480px;
         }
         
         .company-slide .owl-theme .owl-dots {

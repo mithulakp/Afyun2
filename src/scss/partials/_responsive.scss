@@ -37,22 +37,21 @@
     }
     .navbar li {
         display: block;
+        padding-top: 20px;
     }
     label {
         display: block;
         cursor: pointer;
     }
     #toggle:checked~label::before {
-        transform: rotateZ(41deg);
-        margin-left: -25px;
+        transform: rotateZ(49deg);
     }
     #toggle:checked~label::after {
-        transform: rotateZ(-41deg);
-        margin-left: -26px;
-        bottom: -726%;
+        transform: rotateZ(-49deg) translate(-10px, 6px);
     }
     #toggle:checked~label {
         width: 0%;
+        right: 50px;
     }
     #toggle:checked~.navbar {
         width: 90%;
@@ -61,11 +60,13 @@
         background-color: #000;
         height: 100vh;
         margin-left: 30px;
+        transition: all ease 0.5s;
     }
     .banner-content {
-        width: 440px;
-        padding-top: 195px;
+        width: 100%;
+        padding: 195px 11px 0px 11px;
         text-align: center;
+        margin: 0 auto;
     }
     .primary-heading {
         font-size: 52px;
@@ -93,6 +94,7 @@
     .text-intro {
         padding: 0px 50px 0px 50px;
         margin: 0 auto;
+        width: 100%;
     }
     .intro {
         text-align: center;
@@ -124,7 +126,7 @@
         margin: 15px auto;
     }
     .dots-container {
-        margin: 200px auto;
+        margin: 189px auto;
     }
     .red-bg {
         background-position: center;
