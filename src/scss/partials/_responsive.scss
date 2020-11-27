@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) and (min-width: 0) {
+@media only screen and (max-width: 768px) and (min-width: 0) {
     .container {
         width: 100%;
     }
@@ -32,12 +32,16 @@
         margin-left: 10px;
     }
     .navbar {
-        width: 100%;
-        display: none;
+        width: 90%;
+        background-color: #000;
+        height: 100vh;
+        position: fixed;
+        right: -691px;
     }
     .navbar li {
         display: block;
-        padding-top: 20px;
+        padding: 34px 14px 0px 14px;
+        text-align: center;
     }
     label {
         display: block;
@@ -54,13 +58,11 @@
         right: 50px;
     }
     #toggle:checked~.navbar {
-        width: 90%;
         display: block;
-        padding-top: 62px;
-        background-color: #000;
-        height: 100vh;
-        margin-left: 30px;
-        transition: all ease 0.5s;
+        position: fixed;
+        right: -20px;
+        top: 0px;
+        transition: ease .5s;
     }
     .banner-content {
         width: 100%;
@@ -72,6 +74,7 @@
         font-size: 52px;
     }
     .item {
+        width: 100%;
         height: 550px;
         background-size: cover;
     }
@@ -106,21 +109,31 @@
         height: 215px;
         margin-left: 0px;
     }
+    .feature-box-container {
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
     .afyun-feature-box {
-        width: 397px;
-        height: 426px;
+        width: 100%;
+        height: auto;
+        text-align: center;
         position: relative;
         margin-top: -125px;
-        margin-left: -117px;
+    }
+    .global-para {
+        width: 85%;
+        margin: 10px auto;
     }
     .afyun-feature-box-content-align {
         padding-left: 33px;
         padding-right: 23px;
-        padding-top: 58px !important;
     }
     .blog-head {
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
+        width: 100%;
     }
     .blog-box {
         margin: 15px auto;
@@ -157,5 +170,86 @@
     .copy {
         padding-top: 0px;
         margin-left: 8px !important;
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+    .container {
+        width: 100%;
+    }
+    .logo {
+        margin-left: 10px;
+    }
+    .navbar {
+        width: 90%;
+        background-color: #000;
+        height: 100vh;
+        position: fixed;
+        right: -921px;
+    }
+    .navbar li {
+        display: block;
+        padding: 34px 14px 0px 14px;
+        text-align: center;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked~label::before {
+        transform: rotateZ(49deg);
+    }
+    #toggle:checked~label::after {
+        transform: rotateZ(-49deg) translate(-10px, 6px);
+    }
+    #toggle:checked~label {
+        width: 0%;
+        right: 50px;
+    }
+    #toggle:checked~.navbar {
+        display: block;
+        position: fixed;
+        right: -20px;
+        top: 0px;
+        transition: ease .5s;
+    }
+    .header-contact {
+        width: 269px;
+        border-left: none;
+    }
+    .item {
+        background-size: cover;
+    }
+    .banner-content {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .text-intro {
+        padding: 0px 50px 0px 50px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .intro {
+        text-align: center;
+    }
+    .inner-banner-bg {
+        background-color: #fff;
+    }
+    .left {
+        margin-left: 0px;
+    }
+    .feature-box-container {
+        width: 100%;
+        margin: 0px auto;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .afyun-feature-box {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: relative;
+        margin-top: -125px;
     }
 }
