@@ -18,7 +18,7 @@
 }
 
 a {
-    padding: 11px;
+    padding: 15px;
 }
 
 body {
@@ -65,11 +65,12 @@ body {
 .logo {
     width: 130px;
     position: absolute;
-    margin-top: -4px;
+    margin-top: 14px;
+    margin-left: -15px;
 }
 
 nav {
-    margin: 20px 0px 0px 200px;
+    margin-left: 200px;
 }
 
 .navbar {
@@ -79,7 +80,10 @@ nav {
         padding-left: 10px;
         text-transform: uppercase;
         font-weight: bold;
-        line-height: 36px;
+        line-height: 79px;
+        a {
+            padding: 28px 11px 28px 11px;
+        }
         a:hover {
             color: $secondary-color;
             @extend .smooth;
@@ -92,7 +96,7 @@ label {
     width: 33px;
     height: 2px;
     right: 17px;
-    margin-top: 15px;
+    margin-top: 36px;
     position: absolute;
     background-color: white;
     z-index: 1;
@@ -128,7 +132,7 @@ label {
     position: relative;
     border-left: 1px solid #999181;
     height: 46px;
-    margin-top: -3px;
+    margin-top: 16px;
 }
 
 .phone {

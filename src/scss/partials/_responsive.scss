@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) and (min-width: 0) {
+@media only screen and (max-width: 991px) and (min-width: 0) {
     .container {
         width: 100%;
     }
@@ -29,14 +29,14 @@
         height: 74px;
     }
     .logo {
-        margin-left: 10px;
+        margin-left: -4px;
     }
     .navbar {
         width: 90%;
         background-color: #000;
         height: 100vh;
         position: fixed;
-        right: -691px;
+        right: -892px;
     }
     .navbar li {
         display: block;
@@ -66,7 +66,7 @@
     }
     .banner-content {
         width: 100%;
-        padding: 195px 11px 0px 11px;
+        padding: 195px 30px 0px 30px;
         text-align: center;
         margin: 0 auto;
     }
@@ -106,7 +106,7 @@
         background-color: #fff;
     }
     .left {
-        height: 215px;
+        height: 40vh;
         margin-left: 0px;
     }
     .feature-box-container {
@@ -136,16 +136,13 @@
         width: 100%;
     }
     .blog-box {
-        margin: 15px auto;
+        margin: 0px auto;
     }
     .dots-container {
-        margin: 189px auto;
+        margin: 212px auto;
     }
     .red-bg {
         background-position: center;
-    }
-    .nature-img {
-        margin-top: -40px;
     }
     .red-bg-spacing {
         padding-top: 0px;
@@ -173,9 +170,11 @@
     }
 }
 
-@media only screen and (max-width: 1023px) and (min-width: 769px) {
+
+/*
+@media only screen and (max-width: 1023px) and (min-width: 801px) {
     .container {
-        width: 100%;
+        width: 95%;
     }
     .logo {
         margin-left: 10px;
@@ -234,10 +233,11 @@
         text-align: center;
     }
     .inner-banner-bg {
-        background-color: #fff;
+        background-color: white;
     }
     .left {
         margin-left: 0px;
+        width: 100%;
     }
     .feature-box-container {
         width: 100%;
@@ -250,6 +250,83 @@
         height: auto;
         text-align: center;
         position: relative;
-        margin-top: -125px;
+        margin-top: -226px;
+    }
+    .global-para {
+        width: 100%;
+    }
+    .blog-head {
+        text-align: center;
+        margin: 0 auto;
+        width: 77%;
+    }
+}*/
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+    .container {
+        width: 90%;
+    }
+    .logo {
+        margin-left: -54px;
+    }
+    .navbar {
+        width: 90%;
+        background-color: #000;
+        height: 100vh;
+        position: fixed;
+        right: -921px;
+    }
+    .navbar li {
+        display: block;
+        padding: 34px 14px 0px 14px;
+        text-align: center;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    #toggle:checked~label::before {
+        transform: rotateZ(49deg);
+    }
+    #toggle:checked~label::after {
+        transform: rotateZ(-49deg) translate(-10px, 6px);
+    }
+    #toggle:checked~label {
+        width: 0%;
+        right: 50px;
+    }
+    #toggle:checked~.navbar {
+        display: block;
+        position: fixed;
+        right: -20px;
+        top: 0px;
+        transition: ease .5s;
+    }
+    .header-contact {
+        width: 221px;
+        border-left: none;
+    }
+    .item {
+        background-size: cover;
+    }
+    .banner-content {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .row {
+        margin: 0px;
+    }
+    .red-bg {
+        background-position: center;
+    }
+    .dots-container {
+        width: 45% !important;
+    }
+    .blog-box {
+        width: 90%;
+    }
+    .afyun-feature-box {
+        width: auto;
     }
 }
