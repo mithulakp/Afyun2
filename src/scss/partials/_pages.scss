@@ -48,7 +48,11 @@ img {
 }
 
 .text-space {
-    padding-left: 25px;
+    padding-left: 10px;
+}
+
+.link-text {
+    font-size: 15px;
 }
 
 .small-text {
@@ -226,7 +230,100 @@ img {
     margin-right: 50px;
 }
 
-.link-text {
-    font-size: 15px;
-    margin-left: -15px;
+.blog-banner {
+    width: 100%;
+}
+
+.blog-banner-head {
+    width: 863px;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 140px !important;
+}
+
+.blog-title {
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.blog-date {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.blg-bnr-link {
+    margin: 0 auto;
+    width: 210px;
+}
+
+.details {
+    width: 100%;
+    padding-top: 340px;
+}
+
+.detail-intro {
+    color: #3f4b60;
+}
+
+.para {
+    width: 669px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.detail-intro-head {
+    color: #041c4a;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.blg-part-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog-part {
+    width: 100%;
+    float: left;
+}
+
+.blg-row {
+    margin-left: -29px;
+    margin-right: 29px;
+}
+
+.blg-img-title {
+    font-size: 12px;
+    font-weight: normal;
+    a {
+        padding: 0 !important;
+    }
+}
+
+.blg-part-content {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: normal;
+}
+
+.inner {
+    height: 3000px;
+    background-color: red;
+    width: 100%;
+}
+
+.page-title {
+    font-size: 80px;
+}
+
+.blog-article-banner {
+    width: 100%;
+}
+
+.page-banner {
+    width: 863px;
+    margin: 0 auto;
+    padding: 160px 0px 160px 0px!important;
 }

@@ -84,7 +84,11 @@
     .banner-slide .owl-nav {
         display: none;
     }
-    .sub-text {
+    .small-text {
+        border: none;
+        text-align: center;
+    }
+    /* .sub-text {
         left: 55px;
         position: absolute;
     }
@@ -93,7 +97,7 @@
     }
     .text-link {
         margin-top: -16px;
-    }
+    }*/
     .text-intro {
         padding: 0px 50px 0px 50px;
         margin: 0 auto;
@@ -169,98 +173,6 @@
         margin-left: 8px !important;
     }
 }
-
-
-/*
-@media only screen and (max-width: 1023px) and (min-width: 801px) {
-    .container {
-        width: 95%;
-    }
-    .logo {
-        margin-left: 10px;
-    }
-    .navbar {
-        width: 90%;
-        background-color: #000;
-        height: 100vh;
-        position: fixed;
-        right: -921px;
-    }
-    .navbar li {
-        display: block;
-        padding: 34px 14px 0px 14px;
-        text-align: center;
-    }
-    label {
-        display: block;
-        cursor: pointer;
-    }
-    #toggle:checked~label::before {
-        transform: rotateZ(49deg);
-    }
-    #toggle:checked~label::after {
-        transform: rotateZ(-49deg) translate(-10px, 6px);
-    }
-    #toggle:checked~label {
-        width: 0%;
-        right: 50px;
-    }
-    #toggle:checked~.navbar {
-        display: block;
-        position: fixed;
-        right: -20px;
-        top: 0px;
-        transition: ease .5s;
-    }
-    .header-contact {
-        width: 269px;
-        border-left: none;
-    }
-    .item {
-        background-size: cover;
-    }
-    .banner-content {
-        width: 100%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .text-intro {
-        padding: 0px 50px 0px 50px;
-        margin: 0 auto;
-        width: 100%;
-    }
-    .intro {
-        text-align: center;
-    }
-    .inner-banner-bg {
-        background-color: white;
-    }
-    .left {
-        margin-left: 0px;
-        width: 100%;
-    }
-    .feature-box-container {
-        width: 100%;
-        margin: 0px auto;
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .afyun-feature-box {
-        width: 100%;
-        height: auto;
-        text-align: center;
-        position: relative;
-        margin-top: -226px;
-    }
-    .global-para {
-        width: 100%;
-    }
-    .blog-head {
-        text-align: center;
-        margin: 0 auto;
-        width: 77%;
-    }
-}*/
 
 @media only screen and (max-width: 1024px) and (min-width: 992px) {
     .container {

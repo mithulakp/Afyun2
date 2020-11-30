@@ -45,8 +45,16 @@ body {
     color: #737373;
 }
 
+.text-black {
+    color: black;
+}
+
 .bg-white {
     background-color: white;
+}
+
+.bg-gray {
+    background-color: #dadada;
 }
 
 .container {
@@ -189,4 +197,8 @@ label {
 
 .social a {
     padding: 0px !important;
+}
+
+body:not(.home) .custom-header {
+    background-color: transparent;
 }
