@@ -27,7 +27,7 @@ img {
     padding-top: 380px;
 }
 
-.afyun-about {
+.intro {
     width: 100%;
 }
 
@@ -60,9 +60,10 @@ img {
     height: 28px;
 }
 
-.intro {
+
+/*.intro {
     text-align: left;
-}
+}*/
 
 .inner-banner {
     width: 100%;
@@ -315,7 +316,8 @@ img {
 }
 
 .page-title {
-    font-size: 80px;
+    font-size: 85px;
+    line-height: 60px;
 }
 
 .blog-article-banner {
@@ -325,5 +327,144 @@ img {
 .page-banner {
     width: 863px;
     margin: 0 auto;
-    padding: 160px 0px 160px 0px!important;
+    padding: 200px 0px 200px 0px!important;
+}
+
+.certfcn-banner {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introduction {
+    width: 670px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.cert-icons {
+    margin: 0 auto;
+    width: 785px;
+}
+
+.cert-icon-box {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.prdct-stndardization {
+    width: 100%;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.left-bg {
+    width: 53%;
+    background-color: #edb13e;
+    height: 500px;
+    margin-left: -15px;
+}
+
+.text-small {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-left {
+    width: 630px;
+    float: right;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.career-head {
+    color: $primary-color;
+}
+
+.sub-para {
+    width: 847px;
+    margin: 0 auto;
+}
+
+.career-details {
+    width: 100%;
+    overflow: auto;
+}
+
+.medium-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.career-mail {
+    color: $secondary-color;
+    font-weight: normal;
+}
+
+.send-mail {
+    font-weight: normal;
+}
+
+.send {
+    margin-left: 55px;
+}
+
+.yr-of-exp {
+    line-height: 37px;
+}
+
+.exprnce-head {
+    height: 80px;
+    border-bottom: 1px solid black;
+}
+
+.para-clr {
+    color: $primary-color;
+    width: 532px;
+}
+
+.sustainability-bnr-intro {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.sustainability-head-padding {
+    padding-top: 150px !important;
+}
+
+.tree-image {
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eco-friendly {
+    width: 100%;
+    overflow: auto;
+}
+
+.nature-bg {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &.nature-overlay {
+        background-color: rgba(0, 0, 0, .5);
+    }
+}
+
+.nature-in-content {
+    width: 476px;
+    margin: 0 auto;
 }

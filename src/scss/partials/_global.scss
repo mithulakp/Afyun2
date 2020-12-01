@@ -22,7 +22,7 @@ a {
 }
 
 body {
-    color: $primary-color;
+    color: black;
     font-size: 16px;
     font-family: "arsmpro";
     line-height: 24px;
@@ -49,12 +49,24 @@ body {
     color: black;
 }
 
+.text-red {
+    color: $secondary-color;
+}
+
 .bg-white {
     background-color: white;
 }
 
+.bg-yellow {
+    background-color: #edb13e;
+}
+
 .bg-gray {
     background-color: #dadada;
+}
+
+.bg-light-green {
+    background-color: #e6e8da;
 }
 
 .container {
@@ -62,12 +74,16 @@ body {
     max-width: 1157px;
 }
 
+.nav-black ul {
+    color: black;
+}
+
 .header {
     width: 100%;
     position: fixed;
     height: 80px;
     z-index: 100;
-    background-color: rgba(0, 0, 0, .4);
+    /*background-color: rgba(0, 0, 0, .4);*/
 }
 
 .logo {
@@ -192,6 +208,7 @@ label {
 
 .actve {
     background-color: black;
+    color: white;
     transition: 1s ease;
 }
 
