@@ -53,11 +53,13 @@ img {
 
 .link-text {
     font-size: 15px;
+    padding-left: 15px;
+    line-height: 16px;
 }
 
 .small-text {
     border-left: 5px solid red;
-    height: 28px;
+    /* height: 28px;*/
 }
 
 
@@ -85,6 +87,11 @@ img {
     margin-left: -15px;
     background-repeat: no-repeat;
     background-size: cover;
+    &.about-left-part {
+        height: auto;
+        overflow: auto;
+        background-position: bottom;
+    }
 }
 
 .feature-box-container {
@@ -250,6 +257,15 @@ img {
 .blog-date {
     display: inline-block;
     font-weight: normal;
+    font-size: 12px;
+    a:hover {
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+}
+
+.suspendisse {
+    color: $secondary-color;
 }
 
 .blg-bnr-link {
@@ -297,10 +313,16 @@ img {
 
 .blg-img-title {
     font-size: 12px;
+    line-height: 35px;
     font-weight: normal;
     a {
         padding: 0 !important;
     }
+}
+
+.social-icon {
+    width: 665px;
+    margin: 0 auto;
 }
 
 .blg-part-content {
@@ -327,14 +349,31 @@ img {
 .page-banner {
     width: 863px;
     margin: 0 auto;
-    padding: 200px 0px 200px 0px!important;
+    padding: 200px 0px 180px 0px!important;
 }
 
-.certfcn-banner {
+.right-arw {
+    float: right;
+    margin-right: 50px;
+}
+
+.cntrl-text {
+    margin: 10px;
+}
+
+.prev-arw,
+.next-arw {
+    width: 20px;
+}
+
+.common-banner {
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    &.nature-overlay {
+        background-color: rgba(0, 0, 0, .5);
+    }
 }
 
 .introduction {
@@ -343,6 +382,9 @@ img {
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
+    &.why-us-intro {
+        width: 865px;
+    }
 }
 
 .cert-icons {
@@ -400,6 +442,7 @@ img {
 .medium-text {
     font-size: 36px;
     font-weight: bold;
+    line-height: 42px;
 }
 
 .career-mail {
@@ -407,12 +450,18 @@ img {
     font-weight: normal;
 }
 
+.contact-info {
+    display: inline-block;
+}
+
 .send-mail {
     font-weight: normal;
 }
 
 .send {
-    margin-left: 55px;
+    margin-left: 36px;
+    position: absolute;
+    margin-top: 10px;
 }
 
 .yr-of-exp {
@@ -426,7 +475,7 @@ img {
 
 .para-clr {
     color: $primary-color;
-    width: 532px;
+    width: 530px;
 }
 
 .sustainability-bnr-intro {
@@ -454,17 +503,128 @@ img {
     overflow: auto;
 }
 
-.nature-bg {
+.full-width-bg {
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    overflow: auto;
     &.nature-overlay {
         background-color: rgba(0, 0, 0, .5);
+    }
+    &.white-overlay {
+        background-color: rgba(255, 255, 255, .9);
     }
 }
 
 .nature-in-content {
     width: 476px;
     margin: 0 auto;
+}
+
+.why-us-img {
+    float: right;
+    line-height: 12px;
+}
+
+.brder-black {
+    border-left: 3px solid black;
+    margin-left: 15px;
+}
+
+.image-size {
+    width: 200px;
+}
+
+.grad-bg {
+    width: 100%;
+    /*height: 478px;*/
+    background: linear-gradient(to right, #888895, #888895, #7f7d86, transparent, transparent);
+}
+
+.grad-bg-white {
+    width: 100%;
+    overflow: auto;
+    background: linear-gradient(to right, #fff, #fff, #fff, transparent, transparent);
+}
+
+.customer-service-content {
+    width: 437px;
+}
+
+.customer-service-contct {
+    border: none;
+    margin-top: -25px;
+    width: 100%;
+}
+
+.process-bg {
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.white-grad {
+    width: 100%;
+    overflow: auto;
+    /*height: 478px;*/
+    background: linear-gradient(to left, #fff, #fff, transparent);
+}
+
+.afyun-process-bg {
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.vision-content {
+    float: right;
+}
+
+.text-size {
+    font-size: 23px;
+}
+
+.brder-white {
+    border-left: 3px solid #fff;
+    margin-left: 20px;
+}
+
+.cert-images {
+    display: inline-block;
+    padding: 0px 25px;
+}
+
+.cert-icon-align {
+    margin-left: -25px;
+}
+
+.brder {
+    border-right: 1px solid #e1e3d2;
+}
+
+.afyun-success-part {
+    width: 100%;
+    overflow: auto;
+}
+
+.chairman {
+    line-height: 12px;
+}
+
+.ab {
+    display: inline-block;
+    width: 705px;
+}
+
+.pattern-bg-content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.room-img {
+    position: absolute;
+    margin-top: -430px;
+    width: 703px;
 }

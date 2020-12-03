@@ -17,10 +17,6 @@
     font-weight: medium;
 }
 
-a {
-    padding: 15px;
-}
-
 body {
     color: black;
     font-size: 16px;
@@ -69,13 +65,13 @@ body {
     background-color: #e6e8da;
 }
 
+.bg-violet {
+    background-color: #888895;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1157px;
-}
-
-.nav-black ul {
-    color: black;
 }
 
 .header {
@@ -84,6 +80,15 @@ body {
     height: 80px;
     z-index: 100;
     /*background-color: rgba(0, 0, 0, .4);*/
+}
+
+.header-dark .navbar,
+{
+    color: black;
+}
+
+.header-dark .header-contact {
+    color: black;
 }
 
 .logo {
@@ -208,8 +213,15 @@ label {
 
 .actve {
     background-color: black;
-    color: white;
     transition: 1s ease;
+}
+
+.actve ul li a {
+    color: white; //color you want
+}
+
+.actve .header-contact {
+    color: white; //color you want
 }
 
 .social a {
