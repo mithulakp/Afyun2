@@ -88,8 +88,7 @@
             margin-top: -89px;
             right: 507px;
         }
-        
-        .company-slide .owl-theme .owl-dots {
+        /*.company-slide .owl-theme .owl-dots {
             margin-left: 402px;
             margin-top: -270px !important;
         }
@@ -101,7 +100,7 @@
         
         .owl-carousel .company-slider {
             margin-left: -50px !important;
-        }
+        }*/
         
         .owl-next:focus,
         .owl-prev:focus {
@@ -110,4 +109,14 @@
         
         .owl-theme .owl-dots .owl-dot {
             outline: none;
+        }
+        
+        .history-slide .owl-nav {
+            position: absolute;
+            margin-top: -245px;
+        }
+        
+        .history-slide .owl-nav button.owl-prev {
+            margin-right: 1045px;
+            position: relative;
         }
