@@ -54,7 +54,7 @@ body {
 }
 
 .bg-yellow {
-    background-color: #edb13e;
+    background-color: #f5ae2a;
 }
 
 .bg-gray {
@@ -89,6 +89,10 @@ body {
 .header-dark .navbar,
 {
     color: black;
+}
+
+#Layer_1 {
+    fill: #000;
 }
 
 .header-dark .header-contact {
@@ -226,6 +230,10 @@ label {
 
 .actve .header-contact {
     color: white; //color you want
+}
+
+.actve #Layer_1 {
+    fill: #fff;
 }
 
 .social a {

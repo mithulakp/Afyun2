@@ -3,8 +3,8 @@
         width: 100%;
     }
     .global-vertical-padding {
-        padding-top: 35px !important;
-        padding-bottom: 35px !important;
+        padding-top: 35px;
+        padding-bottom: 35px;
     }
     .global-top-padding {
         padding-top: 35px !important;
@@ -142,6 +142,9 @@
     .blog-box {
         margin: 0px auto;
     }
+    .blog-box2 {
+        margin-top: 50px;
+    }
     .dots-container {
         margin: 212px auto;
     }
@@ -171,6 +174,15 @@
     .copy {
         padding-top: 0px;
         margin-left: 8px !important;
+    }
+    .page-banner {
+        width: 100%;
+    }
+    .introduction {
+        width: 87%;
+    }
+    .sub-para {
+        width: 85%;
     }
 }
 
