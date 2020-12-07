@@ -20,8 +20,8 @@
         background-repeat: no-repeat;
         &.about-item {
             height: auto;
-            width: 195px;
-            margin-left: 37px;
+            width: 210px;
+            margin-left: 36px;
         }
     }
     
@@ -784,4 +784,9 @@
     .white-hl-align {
         width: 863px;
         margin: 0 auto;
+    }
+    
+    .pattern-cntent-align {
+        width: 48%;
+        display: inline-block;
     }

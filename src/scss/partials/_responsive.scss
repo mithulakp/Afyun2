@@ -37,11 +37,15 @@
         height: 100vh;
         position: fixed;
         right: -892px;
+        padding-top: 65px;
     }
     .navbar li {
         display: block;
         padding: 0px 14px 0px 14px;
         text-align: center;
+        line-height: 45px;
+        font-size: 20px;
+        color: white;
     }
     label {
         display: block;
@@ -368,6 +372,9 @@
         padding-left: 0px;
         padding-right: 0;
     }
+    .white-hl-align {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 992px) {
@@ -383,11 +390,14 @@
         height: 100vh;
         position: fixed;
         right: -921px;
+        padding-top: 65px;
     }
     .navbar li {
         display: block;
-        padding: 34px 14px 0px 14px;
+        padding: 0px 14px 0px 14px;
         text-align: center;
+        line-height: 45px;
+        font-size: 20px;
     }
     label {
         display: block;
@@ -456,5 +466,19 @@
     }
     .pattern-bg-content {
         padding: 0px 65%;
+    }
+    .pattern-cntent-align {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    .white-hl-align {
+        width: 100%;
+    }
+    .page-banner {
+        width: 100%;
+    }
+    .customer-service-content {
+        width: 100%;
     }
 }

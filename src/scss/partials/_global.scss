@@ -7,13 +7,13 @@
 
 @font-face {
     font-family: "arsmpro";
-    src: url(../fonts/arsmpro-medium-webfont.woff);
+    src: url(../fonts/arsmaquettepro-bold-webfont-webfont.woff);
     font-weight: bold;
 }
 
 @font-face {
     font-family: "arsmpro";
-    src: url(../fonts/arsmaquettepro-bold-webfont-webfont.woff);
+    src: url(../fonts/arsmpro-medium-webfont.woff);
     font-weight: medium;
 }
 
@@ -254,4 +254,10 @@ label {
 
 body:not(.home) .custom-header {
     background-color: transparent;
+}
+
+.actve label,
+.actve label::before,
+.actve label::after {
+    background-color: white;
 }

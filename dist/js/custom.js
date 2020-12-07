@@ -45,8 +45,11 @@ $('.history-slide').owlCarousel({
         600: {
             items: 2
         },
-        1000: {
-            items: 3
+        800: {
+            item: 3
+        },
+        1100: {
+            items: 4
         }
 
     }

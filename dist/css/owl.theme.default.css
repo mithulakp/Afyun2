@@ -114,9 +114,14 @@
         .history-slide .owl-nav {
             position: absolute;
             margin-top: -245px;
+            width: 100%;
         }
         
         .history-slide .owl-nav button.owl-prev {
-            margin-right: 1045px;
-            position: relative;
+            float: left;
+        }
+        
+        .history-slide .owl-nav button.owl-next {
+            float: right;
+            margin-top: 70px;
         }
