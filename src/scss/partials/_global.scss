@@ -1,19 +1,19 @@
 @import './variables.scss';
 @font-face {
     font-family: "arsmpro";
-    src: url(../fonts/arsmproregular.TTF);
+    src: url(../fonts/arsmproregular-webfont.woff);
     font-weight: normal;
 }
 
 @font-face {
     font-family: "arsmpro";
-    src: url(../fonts/ARSMAQUETTEPRO-BOLD-WEBFONT.TTF);
+    src: url(../fonts/arsmpro-medium-webfont.woff);
     font-weight: bold;
 }
 
 @font-face {
     font-family: "arsmpro";
-    src: url(../fonts/arsmpro-Medium.ttf);
+    src: url(../fonts/arsmaquettepro-bold-webfont-webfont.woff);
     font-weight: medium;
 }
 
@@ -126,6 +126,18 @@ nav {
             @extend .smooth;
         }
     }
+}
+
+.header-dark label {
+    background-color: black;
+}
+
+.header-dark label::before {
+    background-color: black;
+}
+
+.header-dark label::after {
+    background-color: black;
 }
 
 label {
