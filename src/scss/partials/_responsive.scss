@@ -39,6 +39,9 @@
         right: -892px;
         padding-top: 65px;
     }
+    .header-dark .navbar li {
+        color: white;
+    }
     .navbar li {
         display: block;
         padding: 0px 14px 0px 14px;
@@ -398,6 +401,7 @@
         text-align: center;
         line-height: 45px;
         font-size: 20px;
+        color: white;
     }
     label {
         display: block;

@@ -179,12 +179,14 @@
     }
     
     .arrow {
-        padding: 6px 4px 7px 3px !important;
+        padding: 11px 10px 0px 9px !important;
         margin-bottom: -9px;
     }
     
     .arw {
-        padding: 6px 4px 1px 3px;
+        padding: 4px 10px 4px 8px;
+        width: 35px;
+        height: 35px;
         border-radius: 21px;
         position: relative;
         right: 0;
@@ -211,6 +213,7 @@
     
     .arrow-black {
         border: 1px solid #000;
+        padding: 6px 9px 10px 10px;
     }
     
     .arrow-white {

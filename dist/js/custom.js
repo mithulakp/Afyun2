@@ -58,6 +58,7 @@ $('.history-slide').owlCarousel({
 $(function() {
     AOS.init({
         duration: 800,
+        offset: 30,
     });
 });
 
