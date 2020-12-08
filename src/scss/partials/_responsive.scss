@@ -392,9 +392,11 @@
     }
     .border-left-dark {
         border-left: none;
+        height: auto;
     }
     .border-right-light {
-        border-right: none
+        border-right: none;
+        height: auto;
     }
     .blog-banner-head {
         height: auto;
