@@ -3,31 +3,31 @@ const nextIcon = '<img src="https://prevue.adamscreation.com/afyun/cms/wp-conten
 const leftIcon = '<img src="https://prevue.adamscreation.com/afyun/cms/wp-content/themes/afyun-plywoods/dist/images/about-left-arw.svg"class="slider-arrow left-btn">';
 const rightIcon = '<img src="https://prevue.adamscreation.com/afyun/cms/wp-content/themes/afyun-plywoods/dist/images/about-right-arw.svg"class="slider-arrow right-btn">';
 
-https: //prevue.adamscreation.com/afyun/cms/wp-content/themes/afyun-plywoods/dist/images/slider-left-arw.svg
 
-    $('.banner-slide').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        navText: [
-            prevIcon, nextIcon
-        ],
-        pagination: false,
-        autoplay: 1000,
-        autoplaySpeed: 1000,
-        autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
+
+$('.banner-slide').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    navText: [
+        prevIcon, nextIcon
+    ],
+    pagination: false,
+    autoplay: 1000,
+    autoplaySpeed: 1000,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 1
+        },
+        1000: {
+            items: 1
         }
-    })
+    }
+})
 
 
 $('.history-slide').owlCarousel({
