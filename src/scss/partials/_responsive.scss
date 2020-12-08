@@ -87,7 +87,7 @@
     }
     .item {
         width: 100%;
-        height: 550px;
+        height: 525px;
         background-size: cover;
     }
     .banner-slide .owl-dots {
@@ -112,7 +112,7 @@
     }*/
     .text-intro {
         padding: 0px 50px 0px 50px;
-        margin: 0 auto;
+        margin: 30px auto;
         width: 100%;
     }
     .intro {
@@ -155,7 +155,7 @@
         margin: 0px auto;
     }
     .blog-box2 {
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .dots-container {
         margin: 212px auto;
@@ -222,7 +222,7 @@
         width: 100%;
     }
     .details {
-        padding-top: 225px;
+        padding-top: 0px;
     }
     .social-icon {
         width: 67%;
@@ -378,6 +378,55 @@
     .white-hl-align {
         width: 100%;
     }
+    .grad-bg-white {
+        background: white;
+    }
+    .border-right {
+        border-right: none;
+    }
+    .single-brand {
+        padding: 0px;
+    }
+    .single-brand .padded {
+        padding: 30px 15px;
+    }
+    .border-left-dark {
+        border-left: none;
+    }
+    .border-right-light {
+        border-right: none
+    }
+    .blog-banner-head {
+        height: auto;
+    }
+    /*product details*/
+    .product-image {
+        width: 100%;
+    }
+    .product-detailed-banner {
+        height: auto !important;
+    }
+    .table-content {
+        overflow-x: auto;
+    }
+    /*product details*/
+    .message {
+        width: 70%;
+    }
+    .message-para {
+        padding: 0px 35px;
+    }
+    .table-form,
+    .table-form th,
+    .table-form td,
+    .table tbody {
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
+    .btn-contact {
+        height: auto !important;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 992px) {
@@ -484,5 +533,11 @@
     }
     .customer-service-content {
         width: 100%;
+    }
+    .product-detailed-banner {
+        height: 670px;
+    }
+    .table-content {
+        overflow-x: auto;
     }
 }
