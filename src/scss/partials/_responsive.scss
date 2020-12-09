@@ -97,7 +97,7 @@
         display: none;
     }
     .small-text {
-        border: none;
+        /*border: none;*/
         text-align: center;
     }
     /* .sub-text {
@@ -408,9 +408,9 @@
     .product-detailed-banner {
         height: auto !important;
     }
-    .table-content {
+    /*.table-content {
         overflow-x: auto;
-    }
+    }*/
     /*product details*/
     .message {
         width: 70%;
@@ -428,6 +428,54 @@
     }
     .btn-contact {
         height: auto !important;
+    }
+    .spec-table,
+    .spec-table thead,
+    .spec-table tbody,
+    .spec-table th,
+    .spec-table td,
+    .spec-table tr {
+        display: block;
+    }
+    .spec-table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .spec-table tr {
+        border: 1px solid #000;
+    }
+    .spec-table td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #000;
+        position: relative;
+        padding-left: 70%;
+    }
+    .spec-table td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 4px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    /*
+	Label the data
+    */
+    .spec-table td:nth-of-type(1):before {
+        content: "TEST";
+    }
+    .spec-table td:nth-of-type(2):before {
+        content: "ISI SPECIFIED VALUE";
+    }
+    .spec-table td:nth-of-type(3):before {
+        content: "RESULT OBTAINED";
+    }
+    .sub-text {
+        text-align: center;
     }
 }
 

@@ -49,10 +49,10 @@
         margin-top: -30px;
         width: 100px;
     }
-    
+    /*
     .text-space {
         padding-left: 10px;
-    }
+    }*/
     
     .link-text {
         font-size: 15px;
@@ -192,17 +192,19 @@
         right: 0;
         top: 4px;
         transition: right ease 0.5s;
+        border: 1px solid #fff;
         &:hover {
             right: -10px;
         }
     }
     
+    .sub-text:hover .arw,
     .text-animation:hover .arw {
         position: relative;
         right: -10px;
     }
     
-    .small-text:hover .arw {
+    .sub-text:hover .arw .small-text:hover .arw {
         position: relative;
         right: -10px;
     }
@@ -223,7 +225,7 @@
     .link-align {
         display: inline-block;
         margin-right: 15px;
-        margin-top: -7px;
+        /* margin-top: -7px;*/
     }
     
     .arw-bnr {
@@ -381,11 +383,9 @@
     .cntrl-text {
         margin: 10px;
     }
-    
-    .prev-arw,
-    .next-arw {
+    /*.next-arw {
         width: 20px;
-    }
+    }*/
     
     .common-banner {
         width: 100%;
@@ -634,6 +634,7 @@
     
     .chairman {
         line-height: 12px;
+        padding-top: 25px;
     }
     /*.pattern-cntent-align {
         display: inline-block;
@@ -752,7 +753,7 @@
     }
     
     .arw-width {
-        width: 38px;
+        padding: 0px 10px 0px 9px;
     }
     
     .h1-width {
@@ -843,4 +844,13 @@
     
     .pattern-bg {
         position: relative;
+    }
+    
+    .arw-blg {
+        padding: 9px 2px 3px 5px;
+    }
+    
+    .arw-msg {
+        border: 1px solid #fb6060;
+        padding: 0px 10px 0px 8px;
     }
