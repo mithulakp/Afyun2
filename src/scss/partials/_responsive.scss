@@ -450,7 +450,7 @@
         border: none;
         border-bottom: 1px solid #000;
         position: relative;
-        padding-left: 70%;
+        padding-left: 50%;
     }
     .spec-table td:before {
         /* Now like a table header */
@@ -460,7 +460,7 @@
         left: 4px;
         width: 45%;
         padding-right: 10px;
-        white-space: nowrap;
+        /* white-space: nowrap;*/
     }
     /*
 	Label the data
