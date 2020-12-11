@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) and (min-width: 0) {
+@media only screen and (max-width: 991px) and (min-width: 0) {
     .container {
         width: 95%;
     }
@@ -97,8 +97,19 @@
         display: none;
     }
     .small-text {
+        /*border: none;*/
         text-align: center;
     }
+    /* .sub-text {
+        left: 55px;
+        position: absolute;
+    }
+    .small-text {
+        margin-left: 83px;
+    }
+    .text-link {
+        margin-top: -16px;
+    }*/
     .text-intro {
         padding: 0px 50px 0px 50px;
         margin: 30px auto;
@@ -390,12 +401,17 @@
     .blog-banner-head {
         height: auto;
     }
+    /*product details*/
     .product-image {
         width: 100%;
     }
     .product-detailed-banner {
         height: auto !important;
     }
+    /*.table-content {
+        overflow-x: auto;
+    }*/
+    /*product details*/
     .message {
         width: 70%;
     }
@@ -430,18 +446,25 @@
         border: 1px solid #000;
     }
     .spec-table td {
+        /* Behave  like a "row" */
         border: none;
         border-bottom: 1px solid #000;
         position: relative;
         padding-left: 50%;
     }
     .spec-table td:before {
+        /* Now like a table header */
         position: absolute;
+        /* Top/left values mimic padding */
         top: 6px;
         left: 4px;
         width: 45%;
         padding-right: 10px;
+        /* white-space: nowrap;*/
     }
+    /*
+	Label the data
+    */
     .spec-table td:nth-of-type(1):before {
         content: "TEST";
     }
@@ -459,32 +482,12 @@
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 769px) {
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
     .container {
         width: 90%;
     }
-    .global-vertical-padding {
-        padding-top: 35px;
-        padding-bottom: 35px;
-    }
-    .global-top-padding {
-        padding-top: 35px;
-    }
-    .global-bottom-padding {
-        padding-bottom: 35px;
-    }
-    .global-vertical-padding-sm {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-    .global-top-padding-sm {
-        padding-top: 15px;
-    }
-    .global-bottom-padding-sm {
-        padding-bottom: 15px;
-    }
     .logo {
-        margin-left: -35px;
+        margin-left: -54px;
     }
     .navbar {
         width: 90%;
@@ -535,247 +538,124 @@
         margin: 0 auto;
         text-align: center;
     }
-    .sub-text {
-        text-align: center;
-    }
-    .banner-slide .owl-dots {
-        display: none;
-    }
-    .banner-slide .owl-nav {
-        display: none;
-    }
     .row {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0px;
     }
-    .intro {
-        text-align: center;
-    }
-    .text-intro {
-        width: 80%;
-        margin: 0 auto;
-    }
-    .left {
-        width: 100%;
-    }
-    .feature-box-container {
-        width: 100%;
-        margin: 0px auto;
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .afyun-feature-box {
-        width: 100%;
-        height: auto;
-        text-align: center;
-        position: relative;
-        margin-top: -125px;
-    }
-    .afyun-feature-box-content-align {
-        padding-left: 33px;
-        padding-right: 23px;
-    }
-    .global-para {
-        width: 85%;
-        margin: 10px auto;
-    }
-    .inner-banner-bg {
-        background-color: white;
-    }
-    .blog-head {
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-    }
-    .blog-box {
-        margin: 15px auto;
+    .red-bg {
+        background-position: center;
     }
     .dots-container {
-        margin: 179px auto;
+        width: 45% !important;
+    }
+    .blog-box {
+        width: 90%;
+    }
+    .afyun-feature-box {
+        width: auto;
+    }
+    .history-slide .owl-nav button.owl-prev {
+        margin-right: 0px !important;
+        position: relative;
+        float: left;
+    }
+    .history-slide .owl-nav button.owl-next {
+        float: right;
+        margin-top: 72px;
+    }
+    .history-slide .owl-nav {
         width: 100%;
     }
-    .red-bg-spacing {
-        padding-top: 0px;
+    .room-img {
+        /*margin: -70px auto;
+        padding: 0px 25%;*/
+        width: 0%;
     }
-    .ft-icon {
-        float: inherit;
+    .pattern-bg-content {
+        padding: 0px 65%;
     }
-    .nature-img {
-        padding: 20px 18%;
+    .pattern-cntent-align {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
     }
-    .primary-heading {
-        font-size: 35px;
-        line-height: 40px;
-    }
-    .red-bg-spacing {
-        padding-top: 0px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .product-image {
+    .white-hl-align {
         width: 100%;
     }
     .page-banner {
         width: 100%;
     }
-    .introduction.why-us-intro {
-        width: 100%;
-    }
-    .why-us-img {
-        width: 100%;
-        margin: 0 auto;
-        padding: 50px 20%;
-    }
-    .prdct-stndardization {
-        margin: 0 auto;
-    }
-    .blg-row {
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .image-size {
-        width: 41%;
-        margin: 0 auto;
-    }
-    .process-bg {
-        background-size: cover;
-    }
     .customer-service-content {
-        width: 60%;
-        margin: 0 auto;
-    }
-    .customer-service-contct {
-        width: 100% !important;
-        margin-right: 25px;
-    }
-    .secondary-heading {
-        font-size: 33px;
-    }
-    .introduction {
-        width: 80%;
-    }
-    .sub-para {
-        width: 75%;
-    }
-    .exprnce-head {
-        height: auto;
-        margin-top: 65px;
-    }
-    .page-title {
-        font-size: 55px;
-    }
-    .sustainability-bnr-intro {
-        width: 80%;
-    }
-    .cert-icon-align {
-        padding-bottom: 30px;
-    }
-    .family-img {
-        padding-bottom: 30px;
-    }
-    .nature-in-content {
-        width: 91%;
-    }
-    .brder-white {
-        margin-left: 0px;
-    }
-    .container-left {
-        width: 100%;
-        padding-left: 80px;
-        padding-right: 60px;
-    }
-    .cert-icons {
         width: 100%;
     }
-    .blog-banner-head {
-        width: 91%;
-        height: auto;
+    .product-detailed-banner {
+        height: 670px;
     }
-    .blog-title {
-        font-size: 34px;
-        line-height: 37px;
+    .table-content {
+        overflow-x: auto;
     }
-    .details {
-        padding-top: 25px;
-    }
-    .alignment {
-        margin-left: 27px;
-    }
-    .border-right {
-        border-right: none;
-    }
-    .single-brand {
-        padding: 0px;
-    }
-    .single-brand .padded {
-        padding: 30px 15px;
-    }
-    .border-left-dark {
-        border-left: none;
-        height: auto;
-    }
-    .border-right-light {
-        border-right: none;
-        height: auto;
-    }
-    .stages {
-        width: 65%;
-        margin: 0px auto;
-    }
-    .processing-stg {
-        display: block;
-        margin-top: 10px;
-    }
-    .stage-1,
-    .stage-3 {
-        width: 100%;
-        margin: 0 auto;
-    }
-    /*.white-grad {
-        background-color: white;
-    }*/
-    .number.num-3 {
-        margin-bottom: -93px;
-    }
-    .ts-yellow {
-        text-align: left;
-    }
-    .content-padding {
-        padding-bottom: 0px;
-        padding-top: 50px;
-    }
-    .customer-service-content {
-        width: 69%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    .center-heading {
-        text-align: center;
-    }
-    .left.about-left-part {
-        margin-bottom: 70px;
-    }
-    .left.about-left-part {
-        height: auto;
-        float: left;
-        background-position: bottom;
-    }
-    .left {
-        margin-left: 0;
-    }
-    .room-img {
-        width: 50%;
-    }
-    .comma-img {
-        width: 150px;
-    }
-    .msg-from-chairman {
-        width: 80%;
-    }
-    .chairman {
-        padding-top: 0;
-        width: 68%;
-        margin-top: -100px;
-        padding-left: 256px;
-    }
+}
+
+.red-bg {
+    background-position: center;
+}
+
+.dots-container {
+    width: 45% !important;
+}
+
+.blog-box {
+    width: 90%;
+}
+
+.afyun-feature-box {
+    width: auto;
+}
+
+.history-slide .owl-nav button.owl-prev {
+    margin-right: 0px !important;
+    position: relative;
+    float: left;
+}
+
+.history-slide .owl-nav button.owl-next {
+    float: right;
+    margin-top: 72px;
+}
+
+.history-slide .owl-nav {
+    width: 100%;
+}
+
+.room-img {
+    width: 0%;
+}
+
+.pattern-bg-content {
+    padding: 0px 65%;
+}
+
+.pattern-cntent-align {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.white-hl-align {
+    width: 100%;
+}
+
+.page-banner {
+    width: 100%;
+}
+
+.customer-service-content {
+    width: 100%;
+}
+
+.product-detailed-banner {
+    height: 670px;
+}
+
+.table-content {
+    overflow-x: auto;
 }
