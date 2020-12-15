@@ -260,6 +260,10 @@
     padding-top: 20px;
 }*/
     
+    .spec-table {
+        border-collapse: collapse;
+    }
+    
     .spec-table th {
         text-align: left;
         font-weight: bold;
@@ -285,6 +289,7 @@
     .spec-table td,
     .spec-table th {
         padding: 10px 25px;
+        /* border-right: 1px solid black;*/
     }
     
     .product-details {
@@ -523,4 +528,16 @@
     
     .numbers .number2 {
         margin-top: 10px;
+    }
+    
+    .bg-tr {
+        background-color: black !important;
+    }
+    
+    .bg-gray-tr {
+        background-color: #131313;
+    }
+    
+    .float-right-d {
+        float: right;
     }

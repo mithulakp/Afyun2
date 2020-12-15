@@ -379,6 +379,9 @@
     .single-brand .padded {
         padding: 30px 15px;
     }
+    .float-right-d {
+        float: none;
+    }
     .border-left-dark {
         border-left: none;
         height: auto;
@@ -457,6 +460,18 @@
     .sub-text {
         text-align: center;
     }
+    .bg-tr {
+        background-color: black !important;
+    }
+    .bg-gray-tr {
+        background-color: #131313;
+    }
+    .spec-table tr {
+        border: none;
+    }
+    .spec-table td {
+        border-bottom: none;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -491,7 +506,7 @@
         background-color: #000;
         height: 100vh;
         position: fixed;
-        right: -921px;
+        right: -922px;
         padding-top: 65px;
     }
     .navbar li {
@@ -645,8 +660,8 @@
         margin: 0 auto;
     }
     .customer-service-contct {
-        width: 100% !important;
-        margin-right: 25px;
+        width: 66% !important;
+        margin-right: 112px;
     }
     .secondary-heading {
         font-size: 33px;
@@ -708,7 +723,7 @@
         padding: 0px;
     }
     .single-brand .padded {
-        padding: 30px 15px;
+        padding: 30px 80px;
     }
     .border-left-dark {
         border-left: none;
@@ -777,5 +792,8 @@
         width: 68%;
         margin-top: -100px;
         padding-left: 256px;
+    }
+    .float-right-d {
+        float: none;
     }
 }

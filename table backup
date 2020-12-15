@@ -156,7 +156,7 @@
                                     <td colspan="3"> Static Bending Strength <br><br> Modulus of Rupture<br>
                                     </td>
                                 </tr>
-                                <tr class="bg-tr">
+                                <tr>
                                     <td class="none">– Along the grain <br><br> – Across the grain</td>
                                     <td>
                                         50 N /sq.mm <br><br> 30 N /sq.mm
@@ -177,12 +177,10 @@
                                         65 N /sq.mm <br><br> 40 N /sq.mm
                                     </td>
                                 </tr>-->
-                                <tr class="bg-gray-tr">
-                                    <td colspan="3">Modulus of Elasticity</td>
-                                </tr>
+
                                 <tr>
-                                    <td class="none">
-                                        – Along the grain <br><br> – Across the grain <br>
+                                    <td>
+                                        Modulus of Elasticity <br><br> – Along the grain <br><br> – Across the grain <br>
                                     </td>
                                     <td>
                                         7500 N /sq.mm <br><br> 4000 N /sq.mm
@@ -191,12 +189,10 @@
                                         8305 N /sq.mm <br><br> 4170 N /sq.mm
                                     </td>
                                 </tr>
+
                                 <tr>
-                                    <td colspan="3"> Tensile Strength</td>
-                                </tr>
-                                <tr class="bg-tr">
-                                    <td class="none">
-                                        – Along the grain <br><br> – Across the grain <br><br> – Sum of Tensile strength
+                                    <td>
+                                        Tensile Strength <br><br> – Along the grain <br><br> – Across the grain <br><br> – Sum of Tensile strength
                                     </td>
                                     <td>
                                         42 N /sq.mm <br><br> 25 N /sq.mm <br><br> 84.5 N /sq.mm
@@ -205,26 +201,24 @@
                                         55 N /sq.mm<br><br> 39 N /sq.mm<br><br> 94 N /sq.mm
                                     </td>
                                 </tr>
-                                <tr class="bg-gray-tr">
-                                    <td colspan="3"> Wet Bending Strength<br> A. Along the face grain</td>
-                                </tr>
-                                <tr class="bg-gray-tr">
-                                    <td class="none">
+
+                                <tr>
+                                    <td>
                                         <p>
-                                            a) Modulus of Elasticity,<br> N/mm
+                                            Wet Bending Strength <br><br>A. Along the face grain <br><br> a) Modulus of Elasticity,<br> N/mm
                                             <sup>2</sup> <br><br> b) Modulus of Rupture,<br> N/mm
                                             <sup>2</sup> <br><br> B. Across the face grain<br> a) Modulus of Elasticity,<br> N/mm
                                             <sup>2</sup> <br><br> b) Modulus of Rupture,<br> N/mm
                                             <sup>2</sup> <br></p>
                                     </td>
                                     <td>
-                                        <p> Avg: 3750 N/mm<sup>2</sup> <br> Min Ind: 3400 N/mm<sup>2</sup> <br><br> Avg: 25 N/mm<sup>2</sup> <br> Min Ind: 22 N/mm<sup>2</sup> <br><br><br> Avg: 2000 N/mm<sup>2</sup> <br> Min Ind: 1800 N/mm<sup>2</sup> <br></p>
-                                        <p>Avg: 15 N/mm<sup>2</sup> <br> Min Ind: 13 N/mm<sup>2</sup>
+                                        <p> Avg: 3750 N/mm<sup>2</sup> <br><br> Min Ind: 3400 N/mm<sup>2</sup> <br><br> Avg: 25 N/mm<sup>2</sup> <br><br> Min Ind: 22 N/mm<sup>2</sup> <br><br> Avg: 2000 N/mm<sup>2</sup> <br><br> Min Ind: 1800 N/mm<sup>2</sup>                                            <br></p>
+                                        <p>Avg: 15 N/mm<sup>2</sup> <br><br> Min Ind: 13 N/mm<sup>2</sup>
                                         </p>
                                     </td>
                                     <td>
-                                        <p> 4650 N/mm<sup>2</sup> <br> 4100 N/mm<sup>2</sup> <br><br> 30 N/mm<sup>2</sup> <br> 26 N/mm<sup>2</sup> <br><br><br> 3050 N/mm<sup>2</sup> <br> 2500 N/mm<sup>2</sup> <br></p>
-                                        <p>25 N/mm<sup>2</sup> <br> 20 N/mm<sup>2</sup>
+                                        <p> 4650 N/mm<sup>2</sup> <br><br> 4100 N/mm<sup>2</sup> <br><br> 30 N/mm<sup>2</sup> <br><br> 26 N/mm<sup>2</sup> <br><br> 3050 N/mm<sup>2</sup> <br><br> 2500 N/mm<sup>2</sup> <br></p>
+                                        <p>25 N/mm<sup>2</sup> <br><br> 20 N/mm<sup>2</sup>
                                         </p>
                                     </td>
                                 </tr>
