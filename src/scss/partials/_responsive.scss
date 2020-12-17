@@ -472,6 +472,11 @@
     .spec-table td {
         border-bottom: none;
     }
+    .zoom-icon {
+        /* margin-left: 10px; */
+        display: inline-block;
+        margin-left: -151px;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
