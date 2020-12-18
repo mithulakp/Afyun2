@@ -477,6 +477,13 @@
         display: inline-block;
         margin-left: -151px;
     }
+    /*.pswp__zoom-wrap {
+        transform: translate3d(20px, 44px, 0px) scale(1) !important;
+    }*/
+    .pswp__zoom-wrap {
+        width: 53% !important;
+    }
+    
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
@@ -800,5 +807,11 @@
     }
     .float-right-d {
         float: none;
+    }
+    /* .pswp__zoom-wrap {
+        transform: translate3d(20px, 44px, 0px) scale(1) !important;
+    }*/
+    .pswp__zoom-wrap {
+        width: 40% !important;
     }
 }

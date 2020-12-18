@@ -7,8 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afyun-plywood</title>
     <link rel="stylesheet" type="text/css" href="dist/css/style.css">
-    <link rel="stylesheet" href="dist/css/magnific-popup.css">
+    <!--<link rel="stylesheet" href="dist/css/magnific-popup.css">-->
+    
     <link rel="stylesheet" href="https://prevue.adamscreation.com/afyun/cms/wp-content/themes/afyun-plywoods/additional.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css">
 </head>
 
 <body>
@@ -74,8 +77,8 @@
                 <div class="row">
                     <div class="brand-logo bg-black border-right">
                         <div class="brand-logo-wrap">
-                            <div class="popup-gallery">
-                                <a href="dist/images/afyun-popup-2.jpg" title="">
+                            <!--<div class="popup-gallery">
+                                <a href="dist/images/afyun-popup-2.jpg" title="" class="zoom-popup">
                                     <div class="plywood-thumb"><img src="dist/images/plywood-thumb.jpg" alt="thumbnail"></div>
                                     <div class="zoom-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><style type="text/css">  
@@ -84,7 +87,87 @@
                                         <h5 class="zoom-text">CLICK TO ENLARGE</h5>
                                     </div>
                                 </a>
+                            </div>-->
+
+
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="dist/images/afyun-popup-2.jpg" itemprop="contentUrl" data-size="1000x1000">
+                                        <div class="plywood-thumb"><img src="dist/images/plywood-thumb.jpg" alt="thumbnail"></div>
+                                        <div class="zoom-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><style type="text/css">  
+                                            }
+                                        </style><path class="zoom-white" d="M503.9 478L361 335.1c28.7-34.5 46-78.9 46-127.3C407 97.6 317.7 8.4 207.7 8.4 97.6 8.4 8.4 97.6 8.4 207.7 8.4 317.8 97.6 407 207.7 407c48.4 0 92.8-17.3 127.3-46l142.9 142.9L503.9 478zM29.3 207.7c0-98.3 80-178.3 178.3-178.3 98.3 0 178.3 80 178.3 178.3S306 386 207.7 386C109.3 386 29.3 306 29.3 207.7z"/></svg>
+                                            <h5 class="zoom-text">CLICK TO ENLARGE</h5>
+                                        </div>
+                                    </a>
+                                    <figcaption itemprop="caption description"></figcaption>
+
+                                </figure>
                             </div>
+                            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="pswp__bg "></div>
+                                <div class="pswp__scroll-wrap">
+                                    <div class="pswp__container">
+                                        <div class="pswp__item"></div>
+                                        <div class="pswp__item"></div>
+                                        <div class="pswp__item"></div>
+                                    </div>
+                                    <div class="pswp__ui pswp__ui--hidden">
+
+                                        <div class="pswp__top-bar">
+
+                                            <!--  Controls are self-explanatory. Order can be changed. -->
+
+                                            <div class="pswp__counter"></div>
+
+                                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                                            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                                            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                                            <!-- element will get class pswp__preloader--active when preloader is running -->
+                                            <div class="pswp__preloader">
+                                                <div class="pswp__preloader__icn">
+                                                    <div class="pswp__preloader__cut">
+                                                        <div class="pswp__preloader__donut"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                            <div class="pswp__share-tooltip"></div>
+                                        </div>
+
+                                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                                        </button>
+
+                                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                                        </button>
+
+                                        <div class="pswp__caption">
+                                            <div class="pswp__caption__center"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+
+
                         </div>
                         <div class="brand-specialities">
                             <img src=" https://prevue.adamscreation.com/afyun/cms/wp-content/uploads/2020/12/afyun-celebrity-logo.svg" alt=" Afyun Celebrity">
@@ -291,7 +374,7 @@
                 <div class="row">
                     <div class="brand-logo border-left">
                         <div class="brand-logo-wrap">
-                            <div class="popup-gallery-2">
+                            <!--<div class="popup-gallery-2">
                                 <a href="dist/images/afyun-popup-1.jpg" title="">
                                     <div class="plywood-thumb"><img src="dist/images/plywood-thumb-1.png" alt="thumbnail"></div>
                                     <div class="zoom-icon">
@@ -303,6 +386,92 @@
                                 </a>
                                 <a href="dist/images/afyun-popup-3.jpg" title=""></a>
                                 <a href="dist/images/afyun-popup-4.jpg" title=""></a>
+
+                            </div>-->
+
+
+
+                            <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="dist/images/afyun-popup-1.jpg" itemprop="contentUrl" data-size="1024x1024">
+                                        <div class="plywood-thumb"><img src="dist/images/plywood-thumb-1.png" alt="thumbnail"></div>
+                                        <div class="zoom-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><style type="text/css" >  
+                                            }
+                                            </style><path class="zoom-black" d="M503.9 478L361 335.1c28.7-34.5 46-78.9 46-127.3C407 97.6 317.7 8.4 207.7 8.4 97.6 8.4 8.4 97.6 8.4 207.7 8.4 317.8 97.6 407 207.7 407c48.4 0 92.8-17.3 127.3-46l142.9 142.9L503.9 478zM29.3 207.7c0-98.3 80-178.3 178.3-178.3 98.3 0 178.3 80 178.3 178.3S306 386 207.7 386C109.3 386 29.3 306 29.3 207.7z"/></svg>
+                                            <h5 class="zoom-text">CLICK TO ENLARGE</h5>
+                                        </div>
+                                    </a>
+                                    <figcaption itemprop="caption description"></figcaption>
+                                </figure>
+
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="dist/images/afyun-popup-3.jpg" itemprop="contentUrl" data-size="1024x1024">
+                                        <div style="display: none;"><img src=""></div>
+                                    </a>
+                                    <figcaption itemprop="caption description"></figcaption>
+                                </figure>
+
+                                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                                    <a href="dist/images/afyun-popup-4.jpg" itemprop="contentUrl" data-size="1024x1024">
+                                        <div style="display: none;"><img src=""></div>
+                                    </a>
+                                    <figcaption itemprop="caption description"></figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="pswp__bg"></div>
+                                <div class="pswp__scroll-wrap">
+                                    <div class="pswp__container">
+                                        <div class="pswp__item"></div>
+                                        <div class="pswp__item"></div>
+                                        <div class="pswp__item"></div>
+                                    </div>
+                                    <div class="pswp__ui pswp__ui--hidden">
+
+                                        <div class="pswp__top-bar">
+
+                                            <!--  Controls are self-explanatory. Order can be changed. -->
+
+                                            <div class="pswp__counter"></div>
+
+                                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                                            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                                            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                                            <!-- element will get class pswp__preloader--active when preloader is running -->
+                                            <div class="pswp__preloader">
+                                                <div class="pswp__preloader__icn">
+                                                    <div class="pswp__preloader__cut">
+                                                        <div class="pswp__preloader__donut"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                            <div class="pswp__share-tooltip"></div>
+                                        </div>
+
+                                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                                        </button>
+
+                                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                                        </button>
+
+                                        <div class="pswp__caption">
+                                            <div class="pswp__caption__center"></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
 
                             </div>
                         </div>
@@ -391,7 +560,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="dist/js/owl.carousel.min.js "></script>
     <script src="dist/js/custom.js "></script>
-    <script src="dist/js/jquery.magnific-popup.js"></script>
+    <!--<script src="dist/js/jquery.magnific-popup.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js"></script>
     <script src='https://unpkg.com/aos@2.3.1/dist/aos.js?ver=1.0.0' id='aos-js-js'></script>
 </body>
 
